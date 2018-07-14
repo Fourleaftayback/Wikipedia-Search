@@ -1,0 +1,95 @@
+body {
+  font-family: Times Roman Header, Times New Roman, Georgia Header;
+  color: #e5e5e9;
+  background: #464866 url("wikipedia-logo.png") no-repeat;
+  /*https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png*/
+  background-position: 8% 35px;
+  background-size: 30%;
+  min-height: 50vh;
+  width: auto;
+}
+
+h1 {
+  margin-top: 5%;
+}
+
+h4 {
+  margin-top: 2%;
+  color: #2E9CCA;
+}
+
+h4:hover {
+  color: #8ce1ff;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.form-control {
+  display: block;
+  width: 45%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.btn-primary {
+  display: block;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 23%;
+  background-color: #25274D;
+  color: #e5e5e9;
+  border: white;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #29648A;
+}
+
+#search-btn {
+  margin-bottom: 1%;
+}
+
+#random {
+  margin-top: 1%;
+  margin-bottom: 10%;
+  width: 23%;
+  background-color: #25274D;
+  color: #e5e5e9;
+  border: white;
+  cursor: pointer;
+}
+
+#random:hover {
+  background-color: #29648A;
+}
+
+#search-result div {
+  border: 5px solid #25274D;
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  padding:
+}
+
+#search-result p {
+  font-size: 1rem;
+  margin: 1% 4% 2% 4%;
+  text-align: justify;
+  letter-spacing: .8px;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+}
